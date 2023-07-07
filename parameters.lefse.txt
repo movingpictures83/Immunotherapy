@@ -1,0 +1,6 @@
+inputfile	abund.txt
+class	1
+subclass	-1
+subject	2
+outputdir	biomarkers_raw_images
+wilcoxon_alpha	1

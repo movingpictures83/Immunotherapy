@@ -1,0 +1,11 @@
+Prefix pipelines/Immunotherapy/
+Plugin MetaPhlAn3 inputfile parameters.metaphlan3.txt outputfile Abundance
+Plugin MetaPhlAnMerge inputfile Abundance/ outputfile merged_abundance.txt
+Kitty LEfSe/CRPR
+Plugin LEfSe inputfile ../../parameters.lefse.txt outputfile output.lefse
+Kitty LEfSe/CRPRSD
+Plugin LEfSe inputfile ../../parameters.lefse.txt outputfile output.lefse
+Kitty LEfSe/Hi
+Plugin LEfSe inputfile ../../parameters.lefse.txt outputfile output.lefse
+Kitty LEfSe/VeryHi
+Plugin LEfSe inputfile ../../parameters.lefse.txt outputfile output.lefse
